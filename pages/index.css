@@ -1,3 +1,22 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__languages/header__languages.css);
+@import url(../blocks/header/__language-ru/header__language-ru.css);
+@import url(../blocks/header/__language-en/header__language-en.css);
+
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__route-pic/header__route-pic.css);
+@import url(../blocks/header/__label/header__label.css);
+
+@import url(../blocks/motivation/motivation.css);
+@import url(../blocks/motivation/__title/motivation__title.css);
+@import url(../blocks/motivation/__content/motivation__content.css);
+@import url(../blocks/motivation/__info/motivation__info.css);
+
