@@ -20,3 +20,6 @@
 @import url(../blocks/motivation/__content/motivation__content.css);
 @import url(../blocks/motivation/__info/motivation__info.css);
 
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+
