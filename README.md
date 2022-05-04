@@ -29,7 +29,7 @@ page
 	main
 		motivation
 		gallery
-		route
-			stopping-points
+		route-cards
+			card
 			end-point
 	footer
