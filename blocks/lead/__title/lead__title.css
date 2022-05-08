@@ -5,3 +5,13 @@
 	font-size: 96px;
 	line-height: 100px;
 }
+
+@media all and (max-width: 320px) {
+	.lead__title {
+		max-width: 288px;
+		font-weight: 900;
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+}

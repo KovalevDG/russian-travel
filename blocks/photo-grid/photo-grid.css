@@ -5,3 +5,16 @@
 	grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
 	gap: 16px;
 }
+
+@media screen and (max-width: 768px) {
+	.photo-grid {
+		padding: 88px 24px 0 24px;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.photo-grid {
+		padding: 64px 16px 0 16px;
+		gap: 16px;
+	}
+}

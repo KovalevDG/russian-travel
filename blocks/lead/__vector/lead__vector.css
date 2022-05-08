@@ -3,3 +3,26 @@
 	top: 155px;
 	right: 23px;
 }
+
+@media screen and (max-width: 1024px){
+	.lead__vector {
+		width: 95%;
+		top: 140px;
+		right: 23px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.lead__vector {
+		top: 125px;
+		right: 18px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.lead__vector {
+		width: 90%;
+		top: 90px;
+		right: 15px;
+	}
+}
