@@ -1,7 +1,7 @@
 .place {
 	padding-bottom: 80px;
 	display: grid;
-	grid-template-columns: 460px auto;
+	grid-template-columns: 50% 50%;
 	grid-template-rows: auto;
 	column-gap: 40px;
 	grid-row-gap: 48px;
@@ -12,4 +12,37 @@
 
 .place:last-child {
 	padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+	.place {
+		column-gap: 32px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.place {
+		column-gap: 28px;
+	}
+
+	.place:last-child {
+		padding-bottom: 90px;
+	}
+}
+
+@media all and (max-width: 631px) {
+	.place {
+		column-gap: 0px;
+		grid-template-columns: 100%;
+		grid-template-areas: 
+		"title"
+		"url"
+		"image"
+		"article";
+
+	}
+
+	.place:last-child {
+		padding-bottom: 66px;
+	}
 }

@@ -21,15 +21,3 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
-
-Проект состоит из блоков:
-page
-	hedear
-		logo
-	main
-		motivation
-		gallery
-		route-cards
-			card
-			end-point
-	footer

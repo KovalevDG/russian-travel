@@ -9,8 +9,32 @@
 	z-index: 1;
 }
 
+@media screen and (max-width: 1024px) {
+	.cover__title {
+		padding-top: 195px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.cover__title {
-		padding-top: 245px;
+		padding-top: 115px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.cover__title {
+		max-width: calc((100vw - 320px)/(570 - 320) * (560 - 288) + 288px);
+		padding-top: calc((100vw - 320px)/(570 - 320) * (115 - 33) + 33px);
+		font-size: calc((100vw - 320px)/(570 - 320) * (72 - 32) + 32px);
+		line-height: calc((100vw - 320px)/(570 - 320) * (76 - 35) + 35px);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover__title {
+		max-width: 288px;
+		padding-top: 33px;
+		font-size: 32px;
+		line-height: 35px;
 	}
 }

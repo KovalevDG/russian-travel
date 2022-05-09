@@ -8,6 +8,15 @@
 	padding-top: 32px;
 }
 
+@media screen and (max-width: 710px) {
+	.lead__subtitle {
+		max-width: calc((100vw - 320px)/(710 - 320) * (600 - 288) + 288px);
+		font-size: calc((100vw - 320px)/(710 - 320) * (30 - 16) + 16px);
+		line-height: calc((100vw - 320px)/(710 - 320) * (36 - 20) + 20px);
+		padding-top: calc((100vw - 320px)/(710 - 320) * (32 - 16) + 16px);
+	}
+}
+
 @media all and (max-width: 320px) {
 	.lead__subtitle {
 		max-width: 288px;
