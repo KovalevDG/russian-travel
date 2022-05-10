@@ -6,7 +6,13 @@
 	color: #FFFFFF;
 }
 
+.header__lang-link:hover {
+	opacity: .8;
+	transition: all .2s ease;
+}
+
 .header__lang-link:nth-child(2) {
 	margin-left: auto;
 	padding-right: 18px;
 }
+

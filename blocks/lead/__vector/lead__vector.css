@@ -1,28 +1,32 @@
 .lead__vector {
 	position: absolute;
-	top: 155px;
-	right: 23px;
+	top: 22%;
+	right: 2%;
 }
 
 @media screen and (max-width: 1024px){
 	.lead__vector {
 		width: 95%;
-		top: 140px;
-		right: 23px;
+		top: 20.5%;
+		/*top: 140px;
+		right: 23px;*/
 	}
 }
 
 @media screen and (max-width: 768px){
 	.lead__vector {
-		top: 125px;
-		right: 18px;
+		width: 95%;
+		top: 23%;
+		/*top: 125px;
+		right: 18px;*/
 	}
 }
 
 @media all and (max-width: 320px){
 	.lead__vector {
-		width: 90%;
-		top: 90px;
-		right: 15px;
+		width: 95%;
+		top: 31%;
+		/*top: 90px;
+		right: 15px;*/
 	}
 }
