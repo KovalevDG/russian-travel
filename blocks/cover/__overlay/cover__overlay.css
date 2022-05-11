@@ -1,16 +1,31 @@
 .cover__overlay {
 	width: 100%;
 	height: 100%;
+	text-decoration: none;
+	color: #FFFFFF;
 	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	top: 0;
 	left: 0;
 	background: url(../../../images/cover-trains.jpg);
 	background-size: cover;
-	z-index: -1;
-	opacity: .8;
 }
 
-.cover__overlay:hover {
-	opacity: .3;
+.cover__overlay::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #2A2C2F;
 	transition: all .5s ease;
+	opacity: .3;
+}
+
+.cover__overlay:hover::before {
+	opacity: .8;
 }
