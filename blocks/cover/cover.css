@@ -1,7 +1,6 @@
 .cover {
 	margin: 0 auto;
 	max-width: 1184px;
-	min-height: 740px;
 	position: relative;
 	text-align: center;
 	z-index: 2;
@@ -11,20 +10,20 @@
 @media screen and (max-width: 1024px) {
 	.cover {
 		max-width: 1024px;
-		min-height: 640px;
+/*		min-height: 640px;*/
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.cover {
 		max-width: calc((100vw - 320px)/(768 - 320) * (768 - 320) + 480px);
-		min-height: calc((100vw - 320px)/(768 - 320) * (768 - 200) + 250px);
+/*		min-height: calc((100vw - 320px)/(768 - 320) * (768 - 200) + 250px);*/
 	}
 }
 
 @media all and (max-width: 320px) {
 	.cover {
 		max-width: 320px;
-		min-height: 200px;
+/*		min-height: 200px;*/
 	}
 }
