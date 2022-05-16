@@ -1,4 +1,4 @@
 .place__article {
-	max-width: 95%;
+	max-width: 100%;
 	grid-area: article;
 }

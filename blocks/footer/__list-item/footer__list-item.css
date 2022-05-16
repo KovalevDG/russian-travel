@@ -11,7 +11,8 @@
 		padding-bottom: 32px;
 	}
 
-@media screen and (max-width:  320px){
+@media all and (max-width:  320px){
 	.footer__list-item {
 		padding-bottom: 32px;
 	}
+}
