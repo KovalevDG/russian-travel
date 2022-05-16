@@ -1,7 +1,7 @@
 .photo-grid {
 	padding: 92px 48px 0 48px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));
 	grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
 	gap: 16px;
 }
@@ -15,6 +15,13 @@
 @media all and (max-width: 320px) {
 	.photo-grid {
 		padding: 64px 16px 0 16px;
-		gap: 16px;
+		gap: 12px;
+	}
+}
+
+@media all and (max-width: 319px) {
+	.photo-grid {
+		padding: 64px 0 0 0;
+		grid-template-columns: repeat(auto-fit, minmax(100vw, 1fr));
 	}
 }

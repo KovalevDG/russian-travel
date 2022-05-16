@@ -2,13 +2,16 @@
 	margin: 0;
 }
 
+.footer__list-item:last-child {
+	padding-bottom: 48px;
+}
 
-@media screen and (max-width:  720px){
+@media screen and (max-width:  724px){
 	.footer__list-item {
 		padding-bottom: 32px;
 	}
 
-	.footer__list-item:last-child {
-		padding-bottom: 48px;
+@media screen and (max-width:  320px){
+	.footer__list-item {
+		padding-bottom: 32px;
 	}
-}
