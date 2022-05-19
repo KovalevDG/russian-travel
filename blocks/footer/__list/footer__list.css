@@ -1,4 +1,5 @@
 .footer__list {
+	max-height: 18px;
 	margin: 0;
 	display: flex;
 	list-style: none;
@@ -8,5 +9,6 @@
 @media screen and (max-width: 724px) {
 	.footer__list {
 		display: block;
+		max-height: 360px;
 	}	
 }
